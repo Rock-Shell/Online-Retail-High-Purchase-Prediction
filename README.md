@@ -1,6 +1,6 @@
-                                            ======================================================================
-                                            Supervised: Predicting whether customer will make high purchase or not
-                                            ======================================================================
+                                  ===========================================================
+                                  Predicting whether customer will make high purchase or not
+                                  ===========================================================
 
 
 DATA HANDLING
