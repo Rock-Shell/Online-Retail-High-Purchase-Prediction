@@ -3,7 +3,8 @@
                                   ===========================================================
 
 
-DATA HANDLING
+**DATA HANDLING**
+
   drop null values
   drop negative orders (return or cancelled)
   extract features from date (hour, day, isweekend)
@@ -12,12 +13,14 @@ DATA HANDLING
     check there is one to one mapping between invoice no and customerID
   Create hours bins, morning, evening..
 
-TRAIN TEST SPLIT
+**TRAIN TEST SPLIT**
+
   group by year-month
   calculate percentage for order of last 2 months (20%)
   use it as test DATA
 
-FURTHER PROCESSING
+**FURTHER PROCESSING**
+
   add previous purchase count for customer
   find mean unit price, mean quanity, and unique stocks per country
   Mark where quantity>10, as high purchase and use it as target variable
@@ -25,11 +28,12 @@ FURTHER PROCESSING
   Check for imbalance
   Check for correlated features
 
-MODELLING
+**MODELLING**
   Use xgboost classifier for prediction, set scale_pos_weight as imbalance ratio
   use cross validation, and calculate average CV score
   Use gridsearchCV to try different parameters, choose best model
   
-Evaluation
+**Evaluation**
+
   evaluate training and test data, print confusion matrix and and classification report
   get shap values
