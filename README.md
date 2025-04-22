@@ -37,3 +37,7 @@
 
   evaluate training and test data, print confusion matrix and and classification report
   get shap values
+
+
+
+![alt text](https://github.com/Rock-Shell/Online-Retail-High-Purchase-Prediction/blob/main/images/corr.png)
