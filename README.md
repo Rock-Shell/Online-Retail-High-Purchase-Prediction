@@ -45,7 +45,7 @@
 
 
                                   ======================================================
-                                  Unsupervised: Customer segmention
+                                  Customer segmention
                                   ======================================================
 
 **PREPROCESSING**
