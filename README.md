@@ -59,12 +59,17 @@
   applying log transformation
   plot heatmap, to look for correlated features
 
+  ![alt text](https://github.com/Rock-Shell/Online-Retail-High-Purchase-Prediction/blob/main/images/outliers.png)
+
+
 **MODELLING**
 
   apply standard scaler
   use elbow method to find optimum number of clusters
   optimum k is where graph starts flattening
   use k means with this optimum k value
+
+  ![alt text](https://github.com/Rock-Shell/Online-Retail-High-Purchase-Prediction/blob/main/images/elbow%20method.png)
 
 **EVALUATION**
 
