@@ -74,3 +74,5 @@
 **EVALUATION**
 
   Use Silhoutte score, ~1 Good clustering, non overlapping clusters
+
+![alt text](https://github.com/Rock-Shell/Online-Retail-High-Purchase-Prediction/blob/main/images/customer%20segments.png)
