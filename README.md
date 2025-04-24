@@ -41,3 +41,31 @@
 
 
 ![alt text](https://github.com/Rock-Shell/Online-Retail-High-Purchase-Prediction/blob/main/images/corr.png)
+
+
+
+                                  ======================================================
+                                  Unsupervised: Customer segmention
+                                  ======================================================
+
+**PREPROCESSING**
+
+  dropping null values, and negative orders
+  add OrderValue, total orders, count of orders, and mean of previous purchase per customer
+
+**FEATURE ENGINEERING**
+
+  Outlier detection using boxplot
+  applying log transformation
+  plot heatmap, to look for correlated features
+
+**MODELLING**
+
+  apply standard scaler
+  use elbow method to find optimum number of clusters
+  optimum k is where graph starts flattening
+  use k means with this optimum k value
+
+**EVALUATION**
+
+  Use Silhoutte score, ~1 Good clustering, non overlapping clusters
